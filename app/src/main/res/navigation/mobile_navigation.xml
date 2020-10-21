@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_picasso">
+
+    <fragment
+        android:id="@+id/navigation_picasso"
+        android:name="fr.isep.ii3510.apiillustration.ui.picasso.PicassoFragment"
+        android:label="@string/title_picasso"
+        tools:layout="@layout/fragment_picasso" />
+
+    <fragment
+        android:id="@+id/navigation_volley"
+        android:name="fr.isep.ii3510.apiillustration.ui.volley.VolleyFragment"
+        android:label="@string/title_volley"
+        tools:layout="@layout/fragment_volley" />
+
+    <fragment
+        android:id="@+id/navigation_retrofit"
+        android:name="fr.isep.ii3510.apiillustration.ui.retrofit.RetrofitFragment"
+        android:label="@string/title_retrofit"
+        tools:layout="@layout/fragment_retrofit" />
+    <fragment
+        android:id="@+id/navigation_glide"
+        android:name="fr.isep.ii3510.apiillustration.ui.glide.GlideFragment"
+        android:label="@string/title_glide"
+        tools:layout="@layout/fragment_glide" />
+</navigation>

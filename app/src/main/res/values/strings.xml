@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">API Illustration</string>
+    <string name="title_glide">Glide</string>
+    <string name="title_picasso">Picasso</string>
+    <string name="title_volley">Volley</string>
+    <string name="title_retrofit">Retrofit</string>
+    <string name="joke_id">Joke ID: </string>
+    <string name="joke_content">Joke: </string>
+</resources>
